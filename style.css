@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(174, 88, 255);
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+  }
+
+  .swiper-slide {
+    width: 270px;
+    height: 500px;
+
+  }
+
+  .slide1 {
+      background: url(Images/screen1.png);
+      background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-pagination-bullet-active {
+      border-radius: 25%;
+      width: 20px;
+  }
